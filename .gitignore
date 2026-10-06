@@ -1,15 +1,19 @@
 .DS_Store
-
 .ipynb_checkpoints/
 __pycache__/
+*.pyc
 .vscode/
+.ai-tmp/
+.venv/
+.venv.nosync/
 
-playground.*
-hyperspectral_pg.ipynb
-
-/radiometric_data/
-/legacy/
-/data/*
-!/data/**/
-/data/*/**
-!.placeholder
+# Field imagery exceeding GitHub regular Git single-file limit (100 MiB).
+/data/field_image/BRC/BRC_20190814_141033.tif
+/data/field_image/BRC/BRC_20190828_140117.tif
+/data/field_image/BRC/BRC_20190904_121517 12pm.tif
+/data/field_image/BRC/BRC_20191008_145306 East west, 1 of1.tif
+/data/field_image/C1A/C1A_20190814_132517.tif
+/data/field_image/C1A/C1A_20190828_131301.tif
+/data/field_image/C1A/C1A_20190916_120028.tif
+/data/field_image/RB/RB_20190814_151550.tif
+/data/field_image/RB/RB_20190824_121031_12pm.tif
