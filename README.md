@@ -6,6 +6,12 @@ Plot masks can be transferred between flights using geospatial coordinate transf
 
 The notebooks preserve the historical research workflow and its documented dependencies.
 
+## Historical field imagery archive
+
+The complete historical project consists of this Git repository and nine oversized TIFFs stored in the [field imagery Release](https://github.com/LJXXXD/RGB-IR_Field_Image_Processing/releases/tag/historical-field-imagery-20261005). The TIFFs are preserved as 32 lossless byte parts; they are not included in a normal Git clone or GitHub source-code ZIP.
+
+See [FIELD_IMAGERY_ARCHIVE.md](docs/FIELD_IMAGERY_ARCHIVE.md) for the exact code snapshot, original file inventory, download and restore commands, disk requirements, and SHA-256 checks. The Release includes `manifest.json`, `restore.py`, `RESTORE.md`, and all numbered parts.
+
 ## Prerequisites
 
 
